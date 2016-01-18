@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20160118195944) do
   enable_extension "plpgsql"
 
   create_table "athletes", force: true do |t|
-    t.string   "athlete"
+    t.string   "person"
     t.string   "sport"
     t.datetime "created_at"
     t.datetime "updated_at"
